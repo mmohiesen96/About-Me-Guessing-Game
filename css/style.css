@@ -1,0 +1,43 @@
+*{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    color: #440a67;
+    line-height: 2;
+}
+
+header{
+    background-color: #e8d3ff;
+    text-align: center;
+}
+.nav-photo{
+    width: 150px;
+    height: 150px;
+}
+h1{
+    font-size: xx-large;
+    color: #deecff;
+    font-family: 'Pacifico', cursive;
+    line-height: 3;
+}
+
+p{
+    line-height: 2;
+}
+.butterfly{
+    position: absolute;
+    top: 0;
+    left: 10px;
+    position: fixed;
+}
+
+main{
+    background-color: #f3f8ff;
+}
+.Education , .Skills , .Hobbies{
+    text-align: center;
+    margin: 100px;
+    padding: 30px;
+}
+body{
+    background-color: #f3f8ff;
+}
