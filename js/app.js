@@ -9,11 +9,12 @@ myName = myName.toLowerCase();
 if(myName=='y' || myName == 'yes'){
     alert('That is right i am mohammed nice to meet you');
     score++;
-    console.log('Correct answer');
+    // console.log('Correct answer');
 }
 
 else{
     console.log('Incorrect answer');
+    // console.log('INorrect answer');
     alert('actually my name is mohammed , nice to meet you');
 }
 
@@ -24,12 +25,12 @@ myFavoriteColor = myFavoriteColor.toLowerCase();
 if(myFavoriteColor=='y' || myFavoriteColor == 'yes'){
     alert('That is right i love black');
     score++;
-    console.log('Correct answer');
+    // console.log('Correct answer');
 }
 
 else{
     console.log('Incorrect answer');
-
+    // console.log('Inorrect answer');
     alert('Unfortunatly i like black');
 }
 
@@ -40,11 +41,11 @@ myFood = myFood.toLowerCase();
 if(myFood=='y' || myFood=='yes'){
     alert('I love seafood');
     score++;
-    console.log('Correct answer');
+    // console.log('Correct answer');
 }
 
 else{
-    console.log('Incorrect answer');
+    // console.log('Incorrect answer');
 
     alert('i love the food that comes from the sea actually');
 }
@@ -55,11 +56,11 @@ myResidence =myResidence.toLowerCase();
 if(myResidence=='y' || myResidence == 'yes'){
     alert('That is right i am at Amman right now');
     score++;
-    console.log('Correct answer');
+    // console.log('Correct answer');
 }
 
 else{
-    console.log('Incorrect answer');
+    // console.log('Incorrect answer');
 
     alert('I Live in Amman, come and visit me');
 }
@@ -70,11 +71,11 @@ myFavoriteHobby = myFavoriteHobby.toLowerCase();
 if(myFavoriteHobby=='y' || myFavoriteHobby == 'yes'){
     alert('That is my biggest passion');
     score++;
-    console.log('Correct answer');
+    // console.log('Correct answer');
 }
 
 else{
-    console.log('Incorrect answer');
+    // console.log('Incorrect answer');
 
     alert('OOOH no i gave you a hint');
 }
