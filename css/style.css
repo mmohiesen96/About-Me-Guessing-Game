@@ -20,6 +20,10 @@ h1{
     line-height: 3;
 }
 
+h3{
+    font-weight: bolder;
+}
+
 p{
     line-height: 2;
 }
@@ -40,4 +44,14 @@ main{
 }
 body{
     background-color: #f3f8ff;
+}
+.Series{
+    width:20%;
+    margin: 0 auto;
+}
+
+
+ol{
+    text-align: center;
+    list-style-type:decimal-leading-zero;
 }
