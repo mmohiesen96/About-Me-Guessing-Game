@@ -1,22 +1,30 @@
 'use strict';
+
+
 let userName = prompt('Enter your name please ..');
 alert('Welcome ' + userName + ', let\'s test you about me');
 
 let score = 0;
+function myName() {
 
-let myName = prompt('is my name Mohammed ?');
-myName = myName.toLowerCase();
-if (myName === 'y' || myName === 'yes') {
-    alert('That is right i am mohammed nice to meet you');
-    score++;
-    // console.log('Correct answer');
+    let myName = prompt('is my name Mohammed ?');
+    myName = myName.toLowerCase();
+    if (myName === 'y' || myName === 'yes') {
+        alert('That is right i am mohammed nice to meet you');
+        score++;
+        // console.log('Correct answer');
+    }
+
+    else {
+        console.log('Incorrect answer');
+        // console.log('INorrect answer');
+        alert('actually my name is mohammed , nice to meet you');
+    }
+
 }
 
-else {
-    console.log('Incorrect answer');
-    // console.log('INorrect answer');
-    alert('actually my name is mohammed , nice to meet you');
-}
+myName();
+
 
 
 
