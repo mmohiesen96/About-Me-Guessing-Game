@@ -54,7 +54,7 @@ else {
 
 let myResidence = prompt('Do i live in Amman ?');
 myResidence = myResidence.toLowerCase();
-if (myResidence == 'y' || myResidence == 'yes') {
+if (myResidence === 'y' || myResidence === 'yes') {
     alert('That is right i am at Amman right now');
     score++;
     // console.log('Correct answer');
