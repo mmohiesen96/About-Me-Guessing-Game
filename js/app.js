@@ -50,6 +50,7 @@ myFavoriteColor();
 
 
 
+function myFood(){
 let myFood = prompt('Do i like seaFood ?');
 myFood = myFood.toLowerCase();
 if (myFood == 'y' || myFood == 'yes') {
@@ -63,6 +64,9 @@ else {
 
     alert('i love the food that comes from the sea actually');
 }
+
+}
+myFood();
 
 
 let myResidence = prompt('Do i live in Amman ?');
@@ -78,6 +82,12 @@ else {
 
     alert('I Live in Amman, come and visit me');
 }
+
+
+
+
+
+
 let myFavoriteHobby = prompt('Do i love cooooding "That is a hint" ?');
 myFavoriteHobby = myFavoriteHobby.toLowerCase();
 
