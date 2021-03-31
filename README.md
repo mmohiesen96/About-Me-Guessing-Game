@@ -12,3 +12,10 @@ Code 201 first week project
 
 ## [About me site ](https://mmohiesen96.github.io/About-Me-Guessing-Game/)
  ## **Author name :** ***Mohammed Mohiesen.***
+
+ ### Class 04 :
+
+ - **Today  driver edited my code wrapping the questions into functions and called each one seperately, it was too fun to work with the driver .**
+
+ - **The driver was Sokiyna**.
+ - **The navigator was mohammad**. 
