@@ -26,6 +26,7 @@ function myName() {
 myName();
 
 
+function myFavoriteColor(){
 
 
 let myFavoriteColor = prompt('Do i like black color ?');
@@ -42,6 +43,10 @@ else {
     alert('Unfortunatly i like black');
 }
 
+
+}
+
+myFavoriteColor();
 
 
 
