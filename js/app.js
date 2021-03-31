@@ -91,7 +91,7 @@ else {
 myResidence();
 
 
-
+function myFavoriteHobby(){
 
 let myFavoriteHobby = prompt('Do i love cooooding "That is a hint" ?');
 myFavoriteHobby = myFavoriteHobby.toLowerCase();
@@ -108,6 +108,11 @@ else {
 
     alert('OOOH no i gave you a hint');
 }
+
+}
+
+myFavoriteHobby();
+
 
 
 let myFavoriteNumber = Math.floor(Math.random() * 11);
