@@ -69,6 +69,8 @@ else {
 myFood();
 
 
+function myResidence(){
+
 let myResidence = prompt('Do i live in Amman ?');
 myResidence = myResidence.toLowerCase();
 if (myResidence === 'y' || myResidence === 'yes') {
@@ -83,7 +85,10 @@ else {
     alert('I Live in Amman, come and visit me');
 }
 
+}
 
+
+myResidence();
 
 
 
