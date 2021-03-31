@@ -26,22 +26,22 @@ function myName() {
 myName();
 
 
-function myFavoriteColor(){
+function myFavoriteColor() {
 
 
-let myFavoriteColor = prompt('Do i like black color ?');
-myFavoriteColor = myFavoriteColor.toLowerCase();
-if (myFavoriteColor == 'y' || myFavoriteColor == 'yes') {
-    alert('That is right i love black');
-    score++;
-    // console.log('Correct answer');
-}
+    let myFavoriteColor = prompt('Do i like black color ?');
+    myFavoriteColor = myFavoriteColor.toLowerCase();
+    if (myFavoriteColor == 'y' || myFavoriteColor == 'yes') {
+        alert('That is right i love black');
+        score++;
+        // console.log('Correct answer');
+    }
 
-else {
-    console.log('Incorrect answer');
-    // console.log('Inorrect answer');
-    alert('Unfortunatly i like black');
-}
+    else {
+        console.log('Incorrect answer');
+        // console.log('Inorrect answer');
+        alert('Unfortunatly i like black');
+    }
 
 
 }
@@ -50,40 +50,40 @@ myFavoriteColor();
 
 
 
-function myFood(){
-let myFood = prompt('Do i like seaFood ?');
-myFood = myFood.toLowerCase();
-if (myFood == 'y' || myFood == 'yes') {
-    alert('I love seafood');
-    score++;
-    // console.log('Correct answer');
-}
+function myFood() {
+    let myFood = prompt('Do i like seaFood ?');
+    myFood = myFood.toLowerCase();
+    if (myFood == 'y' || myFood == 'yes') {
+        alert('I love seafood');
+        score++;
+        // console.log('Correct answer');
+    }
 
-else {
-    // console.log('Incorrect answer');
+    else {
+        // console.log('Incorrect answer');
 
-    alert('i love the food that comes from the sea actually');
-}
+        alert('i love the food that comes from the sea actually');
+    }
 
 }
 myFood();
 
 
-function myResidence(){
+function myResidence() {
 
-let myResidence = prompt('Do i live in Amman ?');
-myResidence = myResidence.toLowerCase();
-if (myResidence === 'y' || myResidence === 'yes') {
-    alert('That is right i am at Amman right now');
-    score++;
-    // console.log('Correct answer');
-}
+    let myResidence = prompt('Do i live in Amman ?');
+    myResidence = myResidence.toLowerCase();
+    if (myResidence === 'y' || myResidence === 'yes') {
+        alert('That is right i am at Amman right now');
+        score++;
+        // console.log('Correct answer');
+    }
 
-else {
-    // console.log('Incorrect answer');
+    else {
+        // console.log('Incorrect answer');
 
-    alert('I Live in Amman, come and visit me');
-}
+        alert('I Live in Amman, come and visit me');
+    }
 
 }
 
@@ -91,55 +91,62 @@ else {
 myResidence();
 
 
-function myFavoriteHobby(){
+function myFavoriteHobby() {
 
-let myFavoriteHobby = prompt('Do i love cooooding "That is a hint" ?');
-myFavoriteHobby = myFavoriteHobby.toLowerCase();
+    let myFavoriteHobby = prompt('Do i love cooooding "That is a hint" ?');
+    myFavoriteHobby = myFavoriteHobby.toLowerCase();
 
 
-if (myFavoriteHobby === 'y' || myFavoriteHobby === 'yes') {
-    alert('That is my biggest passion');
-    score++;
-    // console.log('Correct answer');
-}
+    if (myFavoriteHobby === 'y' || myFavoriteHobby === 'yes') {
+        alert('That is my biggest passion');
+        score++;
+        // console.log('Correct answer');
+    }
 
-else {
-    // console.log('Incorrect answer');
+    else {
+        // console.log('Incorrect answer');
 
-    alert('OOOH no i gave you a hint');
-}
+        alert('OOOH no i gave you a hint');
+    }
 
 }
 
 myFavoriteHobby();
 
+function myFavoriteNumber() {
 
+    let myFavoriteNumber = Math.floor(Math.random() * 11);
 
-let myFavoriteNumber = Math.floor(Math.random() * 11);
+    let userNumberGuess = 0;
+    for (let i = 0; i <= 4; i++) {
+        if (i === 4) {
+            alert('You run out of attempts My favorite number  is ' + myFavoriteNumber);
+            break;
+        }
+        userNumberGuess = prompt('Can you guess my favorite number , I\'ll give you 4 attempts ');
+        if (parseInt(userNumberGuess) === myFavoriteNumber) {
+            alert('Bingooo , you are correct my favorite number is ' + myFavoriteNumber);
+            score++;
+            break;
+        }
+        else if (userNumberGuess > myFavoriteNumber) {
+            alert('That is too high , try again');
+        }
 
-let userNumberGuess = 0;
-for (let i = 0; i <= 4; i++) {
-    if (i === 4) {
-        alert('You run out of attempts My favorite number  is ' + myFavoriteNumber);
-        break;
-    }
-    userNumberGuess = prompt('Can you guess my favorite number , I\'ll give you 4 attempts ');
-    if (parseInt(userNumberGuess) === myFavoriteNumber) {
-        alert('Bingooo , you are correct my favorite number is ' + myFavoriteNumber);
-        score++;
-        break;
-    }
-    else if (userNumberGuess > myFavoriteNumber) {
-        alert('That is too high , try again');
+        else {
+            alert('That is too low , try again');
+        }
+
     }
 
-    else {
-        alert('That is too low , try again');
-    }
+    // console.log('user guessed ' + userNumberGuess + ' for the guess number challenge');
 
 }
 
-// console.log('user guessed ' + userNumberGuess + ' for the guess number challenge');
+myFavoriteNumber();
+
+
+
 
 let myFavoriteProgrammingLanguage = ['Java', 'C++', 'Python', 'C#'];
 
