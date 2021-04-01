@@ -115,7 +115,7 @@ myFavoriteHobby();
 
 function myFavoriteNumber() {
 
-    let myFavoriteNumber = Math.floor(Math.random() * 11);
+    let myFavoriteNumber = Math.floor(Math.random() * 11); //5
 
     let userNumberGuess = 0;
     for (let i = 0; i <= 4; i++) {
@@ -126,8 +126,9 @@ function myFavoriteNumber() {
         userNumberGuess = prompt('Can you guess my favorite number , I\'ll give you 4 attempts ');
         if(isNaN(userNumberGuess)){
             alert('Please enter a number');
+            continue;
         }
-        else if ((parseInt(userNumberGuess) === myFavoriteNumber) && typeof(userNumberGuess) === 'number') {
+        else if ((parseInt(userNumberGuess) === myFavoriteNumber) ) {
             alert('Bingooo , you are correct my favorite number is ' + myFavoriteNumber);
             score++;
             break;
