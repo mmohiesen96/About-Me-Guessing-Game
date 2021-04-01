@@ -12,12 +12,10 @@ function myName() {
     if (myName === 'y' || myName === 'yes') {
         alert('That is right i am mohammed nice to meet you');
         score++;
-        // console.log('Correct answer');
     }
 
     else {
         console.log('Incorrect answer');
-        // console.log('INorrect answer');
         alert('actually my name is mohammed , nice to meet you');
     }
 
@@ -34,12 +32,10 @@ function myFavoriteColor() {
     if (myFavoriteColor === 'y' || myFavoriteColor === 'yes') {
         alert('That is right i love black');
         score++;
-        // console.log('Correct answer');
     }
 
     else {
         console.log('Incorrect answer');
-        // console.log('Inorrect answer');
         alert('Unfortunatly i like black');
     }
 
@@ -56,11 +52,9 @@ function myFood() {
     if (myFood === 'y' || myFood === 'yes') {
         alert('I love seafood');
         score++;
-        // console.log('Correct answer');
     }
 
     else {
-        // console.log('Incorrect answer');
 
         alert('i love the food that comes from the sea actually');
     }
@@ -76,12 +70,9 @@ function myResidence() {
     if (myResidence === 'y' || myResidence === 'yes') {
         alert('That is right i am at Amman right now');
         score++;
-        // console.log('Correct answer');
     }
 
     else {
-        // console.log('Incorrect answer');
-
         alert('I Live in Amman, come and visit me');
     }
 
@@ -100,11 +91,9 @@ function myFavoriteHobby() {
     if (myFavoriteHobby === 'y' || myFavoriteHobby === 'yes') {
         alert('That is my biggest passion');
         score++;
-        // console.log('Correct answer');
     }
 
     else {
-        // console.log('Incorrect answer');
 
         alert('OOOH no i gave you a hint');
     }
@@ -115,7 +104,7 @@ myFavoriteHobby();
 
 function myFavoriteNumber() {
 
-    let myFavoriteNumber = Math.floor(Math.random() * 11); //5
+    let myFavoriteNumber = Math.floor(Math.random() * 11);
 
     let userNumberGuess = 0;
     for (let i = 0; i <= 4; i++) {
@@ -124,11 +113,11 @@ function myFavoriteNumber() {
             break;
         }
         userNumberGuess = prompt('Can you guess my favorite number , I\'ll give you 4 attempts ');
-        if(isNaN(userNumberGuess)){
+        if (isNaN(userNumberGuess)) {
             alert('Please enter a number');
             continue;
         }
-        else if ((parseInt(userNumberGuess) === myFavoriteNumber) ) {
+        else if ((parseInt(userNumberGuess) === myFavoriteNumber)) {
             alert('Bingooo , you are correct my favorite number is ' + myFavoriteNumber);
             score++;
             break;
@@ -143,14 +132,11 @@ function myFavoriteNumber() {
 
     }
 
-    // console.log('user guessed ' + userNumberGuess + ' for the guess number challenge');
-
 }
-
 myFavoriteNumber();
 
 
-function myFavoriteProgrammingLanguage(){
+function myFavoriteProgrammingLanguage() {
 
     let myFavoriteProgrammingLanguage = ['Java', 'C++', 'Python', 'C#'];
 
@@ -184,7 +170,6 @@ function myFavoriteProgrammingLanguage(){
 
     }
 
-    // console.log('The user answered ' + userAnswerProgrammingLanguage + ' for the favorite programming language question');
     alert('The options for the programming language question : ' + myFavoriteProgrammingLanguage);
 }
 
