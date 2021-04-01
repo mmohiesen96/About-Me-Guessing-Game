@@ -124,10 +124,13 @@ function myFavoriteNumber() {
             break;
         }
         userNumberGuess = prompt('Can you guess my favorite number , I\'ll give you 4 attempts ');
-        if (parseInt(userNumberGuess) === myFavoriteNumber) {
+        if ((parseInt(userNumberGuess) === myFavoriteNumber) && typeof(userNumberGuess) === 'number') {
             alert('Bingooo , you are correct my favorite number is ' + myFavoriteNumber);
             score++;
             break;
+        }
+        else if(typeof(userNumberGuess) !== 'number'){
+            alert('Please enter a number');
         }
         else if (userNumberGuess > myFavoriteNumber) {
             alert('That is too high , try again');

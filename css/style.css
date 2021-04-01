@@ -28,10 +28,11 @@ p{
     line-height: 2;
 }
 .butterfly{
-    position: absolute;
     top: 0;
     left: 10px;
     position: fixed;
+    width: 150px;
+    height: 200px;
 }
 
 main{
@@ -55,3 +56,16 @@ ol{
     text-align: center;
     list-style-type:decimal-leading-zero;
 }
+
+.side-bar{
+    width: 10%;
+    height: 68%;
+    position: fixed;
+    bottom: 0;
+}
+
+.side-bar-options{
+    line-height: 4;
+    text-align: center;
+}
+
