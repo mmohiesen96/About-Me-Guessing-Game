@@ -59,9 +59,12 @@ ol{
 
 .side-bar{
     width: 10%;
-    height: 68%;
+    height: 67%;
     position: fixed;
     bottom: 0;
+    left : -10%;
+    transition: .7s;
+    padding: 10px;
 }
 
 .side-bar-options{
@@ -69,7 +72,22 @@ ol{
     text-align: center;
 }
 
-.side-bar ul li{
-    background-color: #93329e;
+
+#shuffle-right{
+    position: fixed;
+    left: 0;
+    top: 50%;
+    cursor: pointer;
+    transition: .5s;
+}
+a{
+    background-color:#93329e;
+    border: 1px solid azure;
+    text-decoration: none;
+    border-radius: 1rem;
+    padding: 15px 30px;
 }
 
+a:hover{
+    color: aliceblue;
+}
